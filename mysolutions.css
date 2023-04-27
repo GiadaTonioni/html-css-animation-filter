@@ -62,3 +62,33 @@
     margin: 10px;
     transition: all 3s;
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    100% {
+        rotate: -360deg;
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: semirotation 3s;
+}
+
+@keyframes semirotation {
+    0% {
+        rotate: 0deg;
+    }
+    85% {
+        rotate: 270deg;
+    }
+    100% {
+        rotate: -0deg;
+    }
+}
+
+/* Esercizio 12 */
