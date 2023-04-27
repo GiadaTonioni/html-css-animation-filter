@@ -26,6 +26,7 @@
 .ex-5-square:hover {
     width: 100px;
     height: 100px;
+    margin: 5px;
     transition: all 1s;
 }
 
@@ -35,3 +36,29 @@
     transition: all 1s;
 }
 
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* Esercizio 7 */
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+/* Esercizio 8 */
+.ex-8-img:hover {
+    filter: sepia(80%) brightness(110%);
+    border-radius: 10%;
+    transition: all 3s;
+}
+
+/* Esercizio 9 */
+.ex-9-img:hover {
+    filter: grayscale(80%) brightness(110%);
+    width: 50%;
+    border-radius: 10%;
+    margin: 10px;
+    transition: all 3s;
+}
