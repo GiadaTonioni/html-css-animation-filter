@@ -92,11 +92,7 @@
 }
 
 /* Esercizio 12 */
-.ex-12-button:hover {
-    text-decoration: underline;
-}
-
-.ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white{
     animation: translation 3s;
 }
 
@@ -115,7 +111,7 @@
     }
 }
 
-.ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
     animation: move 3s;
 }
 
@@ -135,12 +131,8 @@
 }
 
 /* Esercizio 13 */
-.ex-13-button:hover {
-    text-decoration: underline;
-}
-
-.ex-13-top-white {
-    animation: move-rot 3s;
+.ex-13-button:hover .ex-13-top-white {
+    animation: move-rot 3s linear;
 }
 
 @keyframes move-rot {
@@ -170,7 +162,7 @@
     }
 }
 
-.ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
     animation: move-rot-bottom 3s linear;
 }
 
