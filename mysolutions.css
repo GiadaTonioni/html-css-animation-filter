@@ -151,16 +151,16 @@
 
 /* Esercizio 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: move-rot 5s ;
+    animation: move-rot linear 4s ;
 }
 
 @keyframes move-rot {
     0% {
-        top: -10;
+        top: -10px;
         left: 10%;
     }
     20%{
-        top:-10;
+        top:-10px;
         left: 85%;
     }
     40% {
@@ -172,26 +172,26 @@
         left: -15%;
     }
     80%{
-        top: -10;
+        top: -10px;
         left: -15%;
     }
     100% {
-        top: -10;
+        top: -10px;
         left: 10%;
     }
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: move-rot-bottom 5s;
+    animation: move-rot-bottom linear 4s;
 }
 
 @keyframes move-rot-bottom {
     0% {
-        bottom: -10;
+        bottom: -10px;
         right: 20%;
     }
     20%{
-        bottom: -10;
+        bottom: -10px;
         right: 85%;
     }
     40% {
@@ -203,11 +203,11 @@
         right: -15%;
     }
     80%{
-        bottom: -10;
+        bottom: -10px;
         right: -15%;
     }
     100% {
-        bottom: -10;
+        bottom: -10px;
         right: 20%;
     }
 }
