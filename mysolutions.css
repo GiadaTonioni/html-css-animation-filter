@@ -132,63 +132,63 @@
 
 /* Esercizio 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: move-rot 3s linear;
+    animation: move-rot 5s ;
 }
 
 @keyframes move-rot {
     0% {
-        top: 10;
-        left: 10;
+        top: -10;
+        left: 10%;
     }
-    20% {
-        top: 10;
-        left: 160px;
+    20%{
+        top:-10;
+        left: 85%;
     }
     40% {
-        top: 60px;
-        left: 160px;
+        top: 85%;
+        left: 85%;
     }
-    60% {
-        top: 60px;
-        left: -20px;
+    60%{
+        top: 85%;
+        left: -15%;
     }
-    80% {
-        top: 5px;
-        left: -20px;
+    80%{
+        top: -10;
+        left: -15%;
     }
     100% {
-        top: 10;
-        left: 10;
+        top: -10;
+        left: 10%;
     }
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: move-rot-bottom 3s linear;
+    animation: move-rot-bottom 5s;
 }
 
 @keyframes move-rot-bottom {
     0% {
-        bottom: 10;
-        right: 10;
+        bottom: -10;
+        right: 20%;
     }
-    20% {
-        bottom: 10;
-        right: 160px;
+    20%{
+        bottom: -10;
+        right: 85%;
     }
     40% {
-        bottom: 60px;
-        right: 160px;
+        bottom: 85%;
+        right: 85%;
     }
-    60% {
-        bottom: 60px;
-        right: -20px;
+    60%{
+        bottom: 85%;
+        right: -15%;
     }
-    80% {
-        bottom: 5px;
-        right: -20px;
+    80%{
+        bottom: -10;
+        right: -15%;
     }
     100% {
-        bottom: 10;
-        right: 10;
+        bottom: -10;
+        right: 20%;
     }
 }
